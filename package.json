@@ -1,0 +1,39 @@
+{
+  "name": "budo-ball-example",
+  "version": "1.0.0",
+  "description": "bouncing ball example using budo",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "2d-context": "^1.2.0",
+    "dom-css": "^1.1.1",
+    "domready": "^1.0.7",
+    "keycode": "^2.0.0",
+    "raf-loop": "^1.0.1",
+    "verlet-point": "^1.2.1",
+    "verlet-system": "^1.0.15"
+  },
+  "devDependencies": {
+    "budo": "^0.1.12",
+    "garnish": "^2.0.1",
+    "watchify": "^2.3.0"
+  },
+  "scripts": {
+    "start": "budo index.js -o bundle.js --live | garnish",
+    "chrome": "budo-chrome index.js --open -o bundle.js | garnish"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/budo-ball-example.git"
+  },
+  "homepage": "https://github.com/mattdesl/budo-ball-example",
+  "bugs": {
+    "url": "https://github.com/mattdesl/budo-ball-example/issues"
+  }
+}
