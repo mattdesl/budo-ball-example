@@ -18,7 +18,7 @@ npm install
 npm start
 ```
 
-This will start bundling the file and serve it to `localhost:9966`. The script supports LiveReload, so you can save the `index.js` file to trigger a browser reload (without a browser extension).
+This will start bundling the file and serve it to `http://localhost:9966/`. The script supports LiveReload, so you can save the `index.js` file to trigger a browser reload (without a browser extension).
 
 ## script injection
 
