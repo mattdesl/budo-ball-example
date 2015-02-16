@@ -2,6 +2,11 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
+[![screenshot](http://i.imgur.com/LJP7d9I.png)](https://www.youtube.com/watch?v=cfgeN3G_Gl0)
+
+<sup>[(click for demo)](https://www.youtube.com/watch?v=cfgeN3G_Gl0)</sup>
+
+
 This is a small example of using [budō](https://github.com/mattdesl/budo) for rapid prototyping. 
 
 To test:
