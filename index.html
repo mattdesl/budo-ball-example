@@ -1,7 +1,9 @@
 <!-- 
-Budo will generate a basic index.html
-for us if one doesn't exist. This is
-included for publishing to gh-pages. 
+    budo generates a basic index.html
+    for us if one doesn't exist. 
+
+    This is only needed for publishing 
+    to gh-pages. 
  -->
 <!DOCTYPE html>
 <html lang="en">
@@ -10,6 +12,13 @@ included for publishing to gh-pages.
     <title>budo-ball-example</title>
 </head>
 <body>
+    <!-- 
+    This LiveReload snippet enables it for 
+    browsers without an extension.
+     -->
+    <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
     <script src="bundle.js"></script>
 </body>
 </html>
