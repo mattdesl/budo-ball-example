@@ -41,7 +41,7 @@ require('raf-loop')(function(dt) {
 
 *Note:* In some cases, you may need to refresh the tab to get back into the interactive state. Also, opening DevTools or the console will disconnect the debugger.
 
-Tested on OSX Yosemite. [Tweet me](https://twitter.com/mattdesl) if you notice any problems.
+Tested on OSX Yosemite. [Tweet me](https://twitter.com/mattdesl) or [open an issue](https://github.com/mattdesl/budo/issues) if you notice problems.
 
 ## License
 
