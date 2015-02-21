@@ -7,7 +7,7 @@
 <sup>[(click for demo)](https://www.youtube.com/watch?v=cfgeN3G_Gl0)</sup>
 
 
-This is a small example of using [budō](https://github.com/mattdesl/budo) for rapid prototyping. 
+This is a small example of using [budō](https://github.com/mattdesl/budo) and [budō-chrome](https://github.com/mattdesl/budo-chrome) for rapid prototyping. 
 
 To test:
 

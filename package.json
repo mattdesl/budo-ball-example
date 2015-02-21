@@ -19,7 +19,8 @@
     "verlet-system": "^1.0.15"
   },
   "devDependencies": {
-    "budo": "^0.1.12",
+    "budo": "^1.0.0",
+    "budo-chrome": "^1.0.2",
     "garnish": "^2.0.1",
     "watchify": "^2.3.0"
   },
