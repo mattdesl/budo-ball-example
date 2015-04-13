@@ -3,23 +3,25 @@
     for us if one doesn't exist. 
     
     This is only needed for publishing 
-    to gh-pages and LiveReload without
-    an extension. 
+    to gh-pages. 
  -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>budo-ball-example</title>
+    <title>example</title>
+    <style>
+    body > .errorify {
+      color: red;
+      font-family: 'Consolas', monospace;
+      padding: 5px 10px;
+      word-wrap: break-word;
+      font-size: 14px;
+      overflow: hidden;
+    }
+    </style>
 </head>
 <body>
-    <!-- 
-    This LiveReload snippet enables it for 
-    browsers without an extension.
-     -->
-    <script>
-    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-    </script>
     <script src="bundle.js"></script>
 </body>
 </html>

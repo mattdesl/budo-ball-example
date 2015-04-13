@@ -1,7 +1,7 @@
+var css = require('dom-css')
 var Point = require('verlet-point')
 var World = require('verlet-system')
 var keycode = require('keycode')
-var css = require('dom-css')
 
 var width = 500,
     height = 300
@@ -18,6 +18,13 @@ var ball = Point({
     position: [100, 100],
     radius: 30
 })
+
+function foo() {
+    const bar = 'blah'
+    bar = 2
+    return bar
+}
+
 var world = World({
     gravity: [0, 700],
     friction: 1,
@@ -31,7 +38,7 @@ require('raf-loop')(function(dt) {
     world.integratePoint(ball, 24/1000)
 
     //try changing these with budo-chrome running
-    // ball.radius = 10
+    ball.radius = 30
     // ball.mass = 0.25
     // ball.place([200, 100])
 

@@ -19,14 +19,16 @@
     "verlet-system": "^1.0.15"
   },
   "devDependencies": {
-    "budo": "^1.0.0",
-    "budo-chrome": "^1.0.2",
-    "garnish": "^2.0.1",
-    "watchify": "^2.3.0"
+    "budo": "^3.0.4",
+    "budo-chrome": "^2.0.0",
+    "errorify": "^0.2.4",
+    "garnish": "^2.1.2",
+    "open-url": "^2.0.2",
+    "watchify": "^3.1.0"
   },
   "scripts": {
-    "start": "budo index.js -o bundle.js --live | garnish",
-    "chrome": "budo-chrome index.js --open -o bundle.js | garnish"
+    "start": "budo index.js:bundle.js --live -v -p errorify | garnish",
+    "chrome": "budo-chrome index.js:bundle.js --open -v | garnish"
   },
   "keywords": [],
   "repository": {
