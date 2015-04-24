@@ -19,10 +19,10 @@
     "verlet-system": "^1.0.15"
   },
   "devDependencies": {
-    "budo": "^3.0.4",
-    "budo-chrome": "^2.0.0",
+    "budo": "^4.0.0-rc1",
+    "budo-chrome": "^2.1.0",
     "errorify": "^0.2.4",
-    "garnish": "^2.1.2",
+    "garnish": "^2.1.3",
     "open-url": "^2.0.2",
     "watchify": "^3.1.0"
   },
